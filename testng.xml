@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SweetShop Suite">
+    <test name="SweetShop Tests">
+        <classes>
+            <class name="tests.FullFlowTest" />
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter2" />
+        <listener class-name="org.testng.reporters.XMLReporter" />
+    </listeners>
+</suite>

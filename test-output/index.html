@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SweetShop_Suite" class="navigator-link">
+              <span class="suite-name border-passed">SweetShop Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SweetShop_Suite" class="navigator-link ">
+                    <span>C:\Users\pc\eclipse-workspace\SweetShopTest\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SweetShop_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SweetShop_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SweetShop_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SweetShop_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SweetShop_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SweetShop_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SweetShop_Suite" class="hide-methods passed suite-SweetShop_Suite"> (hide)</a> <!-- hide-methods passed suite-SweetShop_Suite -->
+                      <a href="#" panel-name="suite-SweetShop_Suite" class="show-methods passed suite-SweetShop_Suite"> (show)</a> <!-- show-methods passed suite-SweetShop_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-SweetShop_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SweetShop_Suite" title="tests.FullFlowTest" class="method navigator-link" hash-for-method="step10_invalidCheckoutValidation">step10_invalidCheckoutValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SweetShop_Suite" title="tests.FullFlowTest" class="method navigator-link" hash-for-method="step11_loginMismatchBug">step11_loginMismatchBug</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SweetShop_Suite" title="tests.FullFlowTest" class="method navigator-link" hash-for-method="step1_addAllItems">step1_addAllItems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SweetShop_Suite" title="tests.FullFlowTest" class="method navigator-link" hash-for-method="step2_openBasket">step2_openBasket</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SweetShop_Suite" title="tests.FullFlowTest" class="method navigator-link" hash-for-method="step3_insertDummyCustomer">step3_insertDummyCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SweetShop_Suite" title="tests.FullFlowTest" class="method navigator-link" hash-for-method="step4_fetchCustomerFromDB">step4_fetchCustomerFromDB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SweetShop_Suite" title="tests.FullFlowTest" class="method navigator-link" hash-for-method="step5_fillCustomerInfo">step5_fillCustomerInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SweetShop_Suite" title="tests.FullFlowTest" class="method navigator-link" hash-for-method="step6_fillPayment">step6_fillPayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SweetShop_Suite" title="tests.FullFlowTest" class="method navigator-link" hash-for-method="step7_emptyBasket">step7_emptyBasket</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SweetShop_Suite" title="tests.FullFlowTest" class="method navigator-link" hash-for-method="step8_addFruitOnlyItems">step8_addFruitOnlyItems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SweetShop_Suite" title="tests.FullFlowTest" class="method navigator-link" hash-for-method="step9_removeItemById">step9_removeItemById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SweetShop_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SweetShop_Suite" class="panel SweetShop_Suite">
+          <div class="suite-SweetShop_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.FullFlowTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="step10_invalidCheckoutValidation">
+                  </a> <!-- step10_invalidCheckoutValidation -->
+                  <span class="method-name">step10_invalidCheckoutValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step11_loginMismatchBug">
+                  </a> <!-- step11_loginMismatchBug -->
+                  <span class="method-name">step11_loginMismatchBug</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1_addAllItems">
+                  </a> <!-- step1_addAllItems -->
+                  <span class="method-name">step1_addAllItems</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step2_openBasket">
+                  </a> <!-- step2_openBasket -->
+                  <span class="method-name">step2_openBasket</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step3_insertDummyCustomer">
+                  </a> <!-- step3_insertDummyCustomer -->
+                  <span class="method-name">step3_insertDummyCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step4_fetchCustomerFromDB">
+                  </a> <!-- step4_fetchCustomerFromDB -->
+                  <span class="method-name">step4_fetchCustomerFromDB</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step5_fillCustomerInfo">
+                  </a> <!-- step5_fillCustomerInfo -->
+                  <span class="method-name">step5_fillCustomerInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step6_fillPayment">
+                  </a> <!-- step6_fillPayment -->
+                  <span class="method-name">step6_fillPayment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step7_emptyBasket">
+                  </a> <!-- step7_emptyBasket -->
+                  <span class="method-name">step7_emptyBasket</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step8_addFruitOnlyItems">
+                  </a> <!-- step8_addFruitOnlyItems -->
+                  <span class="method-name">step8_addFruitOnlyItems</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step9_removeItemById">
+                  </a> <!-- step9_removeItemById -->
+                  <span class="method-name">step9_removeItemById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SweetShop_Suite-class-passed -->
+        </div> <!-- panel SweetShop_Suite -->
+        <div panel-name="test-xml-SweetShop_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\pc\eclipse-workspace\SweetShopTest\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SweetShop Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.testng.reporters.EmailableReporter2&quot;/&gt;
+    &lt;listener class-name=&quot;org.testng.reporters.XMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SweetShop Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.FullFlowTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SweetShop Tests --&gt;
+&lt;/suite&gt; &lt;!-- SweetShop Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SweetShop_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SweetShop Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SweetShop Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SweetShop_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SweetShop Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SweetShop_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SweetShop Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SweetShop_Suite');
+function tableData_SweetShop_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'step8_addFruitOnlyItems')
+data.setCell(0, 2, 'tests.FullFlowTest')
+data.setCell(0, 3, 11194);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'step1_addAllItems')
+data.setCell(1, 2, 'tests.FullFlowTest')
+data.setCell(1, 3, 8265);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'step11_loginMismatchBug')
+data.setCell(2, 2, 'tests.FullFlowTest')
+data.setCell(2, 3, 5109);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'step9_removeItemById')
+data.setCell(3, 2, 'tests.FullFlowTest')
+data.setCell(3, 3, 3623);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'step5_fillCustomerInfo')
+data.setCell(4, 2, 'tests.FullFlowTest')
+data.setCell(4, 3, 3278);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'step6_fillPayment')
+data.setCell(5, 2, 'tests.FullFlowTest')
+data.setCell(5, 3, 2803);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'step2_openBasket')
+data.setCell(6, 2, 'tests.FullFlowTest')
+data.setCell(6, 3, 2526);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'step10_invalidCheckoutValidation')
+data.setCell(7, 2, 'tests.FullFlowTest')
+data.setCell(7, 3, 2176);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'step7_emptyBasket')
+data.setCell(8, 2, 'tests.FullFlowTest')
+data.setCell(8, 3, 1270);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'step3_insertDummyCustomer')
+data.setCell(9, 2, 'tests.FullFlowTest')
+data.setCell(9, 3, 31);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'step4_fetchCustomerFromDB')
+data.setCell(10, 2, 'tests.FullFlowTest')
+data.setCell(10, 3, 28);
+window.suiteTableData['SweetShop_Suite']= { tableData: data, tableDiv: 'times-div-SweetShop_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <div id="times-div-SweetShop_Suite">
+              </div> <!-- times-div-SweetShop_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SweetShop_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SweetShop Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SweetShop_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SweetShop_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.FullFlowTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">step1_addAllItems</span>
+                <span class="method-start">6559 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step2_openBasket</span>
+                <span class="method-start">14833 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step3_insertDummyCustomer</span>
+                <span class="method-start">17362 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step4_fetchCustomerFromDB</span>
+                <span class="method-start">17395 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step5_fillCustomerInfo</span>
+                <span class="method-start">17425 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step6_fillPayment</span>
+                <span class="method-start">20708 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step7_emptyBasket</span>
+                <span class="method-start">23513 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step8_addFruitOnlyItems</span>
+                <span class="method-start">24791 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step9_removeItemById</span>
+                <span class="method-start">35990 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step10_invalidCheckoutValidation</span>
+                <span class="method-start">39615 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step11_loginMismatchBug</span>
+                <span class="method-start">41793 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">flushReport</span>
+                <span class="method-start">46904 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">47802 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

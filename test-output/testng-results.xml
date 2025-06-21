@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-21T00:23:47 GMT+03:00" name="SweetShop Suite" finished-at="2025-06-21T00:24:35 GMT+03:00" duration-ms="47839">
+    <groups>
+    </groups>
+    <test started-at="2025-06-21T00:23:47 GMT+03:00" name="SweetShop Tests" finished-at="2025-06-21T00:24:35 GMT+03:00" duration-ms="47839">
+      <class name="tests.FullFlowTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FullFlowTest@6a4f1a55]" started-at="2025-06-21T00:23:47 GMT+03:00" name="setUp" finished-at="2025-06-21T00:23:54 GMT+03:00" duration-ms="6533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="step1_addAllItems()[pri:1, instance:tests.FullFlowTest@6a4f1a55]" started-at="2025-06-21T00:23:54 GMT+03:00" name="step1_addAllItems" finished-at="2025-06-21T00:24:02 GMT+03:00" duration-ms="8265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step1_addAllItems -->
+        <test-method signature="step2_openBasket()[pri:2, instance:tests.FullFlowTest@6a4f1a55]" started-at="2025-06-21T00:24:02 GMT+03:00" name="step2_openBasket" finished-at="2025-06-21T00:24:05 GMT+03:00" duration-ms="2526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step2_openBasket -->
+        <test-method signature="step3_insertDummyCustomer()[pri:3, instance:tests.FullFlowTest@6a4f1a55]" started-at="2025-06-21T00:24:05 GMT+03:00" name="step3_insertDummyCustomer" finished-at="2025-06-21T00:24:05 GMT+03:00" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step3_insertDummyCustomer -->
+        <test-method signature="step4_fetchCustomerFromDB()[pri:4, instance:tests.FullFlowTest@6a4f1a55]" started-at="2025-06-21T00:24:05 GMT+03:00" name="step4_fetchCustomerFromDB" finished-at="2025-06-21T00:24:05 GMT+03:00" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step4_fetchCustomerFromDB -->
+        <test-method signature="step5_fillCustomerInfo()[pri:5, instance:tests.FullFlowTest@6a4f1a55]" started-at="2025-06-21T00:24:05 GMT+03:00" name="step5_fillCustomerInfo" finished-at="2025-06-21T00:24:08 GMT+03:00" duration-ms="3278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step5_fillCustomerInfo -->
+        <test-method signature="step6_fillPayment()[pri:6, instance:tests.FullFlowTest@6a4f1a55]" started-at="2025-06-21T00:24:08 GMT+03:00" name="step6_fillPayment" finished-at="2025-06-21T00:24:11 GMT+03:00" duration-ms="2803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step6_fillPayment -->
+        <test-method signature="step7_emptyBasket()[pri:7, instance:tests.FullFlowTest@6a4f1a55]" started-at="2025-06-21T00:24:11 GMT+03:00" name="step7_emptyBasket" finished-at="2025-06-21T00:24:12 GMT+03:00" duration-ms="1270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step7_emptyBasket -->
+        <test-method signature="step8_addFruitOnlyItems()[pri:8, instance:tests.FullFlowTest@6a4f1a55]" started-at="2025-06-21T00:24:12 GMT+03:00" name="step8_addFruitOnlyItems" finished-at="2025-06-21T00:24:23 GMT+03:00" duration-ms="11194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step8_addFruitOnlyItems -->
+        <test-method signature="step9_removeItemById()[pri:9, instance:tests.FullFlowTest@6a4f1a55]" started-at="2025-06-21T00:24:23 GMT+03:00" name="step9_removeItemById" finished-at="2025-06-21T00:24:27 GMT+03:00" duration-ms="3623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step9_removeItemById -->
+        <test-method signature="step10_invalidCheckoutValidation()[pri:10, instance:tests.FullFlowTest@6a4f1a55]" started-at="2025-06-21T00:24:27 GMT+03:00" name="step10_invalidCheckoutValidation" finished-at="2025-06-21T00:24:29 GMT+03:00" duration-ms="2176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step10_invalidCheckoutValidation -->
+        <test-method signature="step11_loginMismatchBug()[pri:11, instance:tests.FullFlowTest@6a4f1a55]" started-at="2025-06-21T00:24:29 GMT+03:00" name="step11_loginMismatchBug" finished-at="2025-06-21T00:24:34 GMT+03:00" duration-ms="5109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step11_loginMismatchBug -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:tests.FullFlowTest@6a4f1a55]" started-at="2025-06-21T00:24:34 GMT+03:00" name="flushReport" finished-at="2025-06-21T00:24:35 GMT+03:00" duration-ms="897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FullFlowTest@6a4f1a55]" started-at="2025-06-21T00:24:35 GMT+03:00" name="tearDown" finished-at="2025-06-21T00:24:35 GMT+03:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FullFlowTest -->
+    </test> <!-- SweetShop Tests -->
+  </suite> <!-- SweetShop Suite -->
+</testng-results>
