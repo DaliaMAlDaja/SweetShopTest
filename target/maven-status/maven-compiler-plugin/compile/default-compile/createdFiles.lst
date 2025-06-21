@@ -1,0 +1,5 @@
+pages\CheckoutPage.class
+utils\ExtentReportManager.class
+pages\LoginPage.class
+pages\BasketPage.class
+pages\HomePage.class
