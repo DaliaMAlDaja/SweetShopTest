@@ -29,20 +29,34 @@ Technologies used include **Java**, **Selenium WebDriver**, **TestNG**, and **Je
 ## 🗂️ Project Structure
 
 ```
-SweetShopTesting/
-├── base/
-│   └── BaseTest.java            # WebDriver + DB setup
-├── pages/
-│   └── BrowseSweetsPage.java
-│   └── BasketPage.java
-│   └── CheckoutPage.java
-├── tests/
-│   └── FullOrderFlowTest.java   # Main scenario test
-├── utils/
-│   └── ConfigReader.java
-├── testng.xml
-└── pom.xml
-```
+
+SweetShopTest/
+│
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       ├── pages/                      # Page Object classes for the web application
+│   │       │   ├── BasketPage.java
+│   │       │   ├── CheckoutPage.java
+│   │       │   ├── HomePage.java
+│   │       │   └── LoginPage.java
+│   │       └── utils/
+│   │           └── ExtentReportManager.java   # Handles ExtentReports for test reporting
+│   │
+│   └── resources/                         # Configuration and resource files
+│
+├── src/
+│   └── test/
+│       ├── java/
+│       │   ├── base/
+│       │   │   └── BaseTest.java           # Base test class for WebDriver setup and teardown
+│       │   ├── tests/
+│       │   │   └── FullFlowTest.java       # Full scenario test case
+│       │   ├── utils/
+│       │   │   └── DatabaseUtil.java       # Utility class for database access
+│       │   └── SweetShopTest.SweetShopTest # Main test suite or entry point
+│
+└── README.md                              # Project documentation
 
 ---
 
